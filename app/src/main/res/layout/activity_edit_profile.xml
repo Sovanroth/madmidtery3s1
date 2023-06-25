@@ -1,0 +1,191 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    tools:context=".EditProfileActivity">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_margin="10dp"
+        android:layout_height="wrap_content">
+        
+        <ImageView
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:id="@+id/back"
+            android:src="@drawable/ic_back"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:layout_marginStart="120dp"
+            android:text="@string/EditProfile"/>
+    </LinearLayout>
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/FullName"
+        android:textSize="16dp"
+        android:layout_margin="10dp"
+        android:textStyle="bold"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:background="@drawable/rounded"
+        android:layout_gravity="center"
+        android:layout_marginStart="10dp"
+        android:layout_marginEnd="10dp"
+        android:layout_height="40dp">
+
+        <EditText
+            android:layout_width="match_parent"
+            android:gravity="start"
+            android:layout_height="40dp"
+            android:text="@string/FullName"
+            android:id="@+id/fullName"
+            android:textSize="16dp"
+            android:layout_margin="10dp"
+            android:textStyle="bold"/>
+
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/Email"
+        android:textSize="16dp"
+        android:layout_margin="10dp"
+        android:textStyle="bold"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:background="@drawable/rounded"
+        android:layout_gravity="center"
+        android:layout_marginStart="10dp"
+        android:layout_marginEnd="10dp"
+        android:layout_height="40dp">
+
+        <EditText
+            android:layout_width="match_parent"
+            android:gravity="start"
+            android:layout_height="40dp"
+            android:text="@string/Email"
+            android:textSize="16dp"
+            android:id="@+id/email"
+            android:layout_margin="10dp"
+            android:textStyle="bold"/>
+
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/Gender"
+        android:textSize="16dp"
+        android:layout_margin="10dp"
+        android:textStyle="bold"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:background="@drawable/rounded"
+        android:layout_gravity="center"
+        android:layout_marginStart="10dp"
+        android:layout_marginEnd="10dp"
+        android:layout_height="40dp">
+
+        <EditText
+            android:layout_width="match_parent"
+            android:gravity="start"
+            android:layout_height="40dp"
+            android:text="@string/Gender"
+            android:textSize="16dp"
+            android:id="@+id/gender"
+            android:layout_margin="10dp"
+            android:textStyle="bold"/>
+
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/Birthday"
+        android:textSize="16dp"
+        android:layout_margin="10dp"
+        android:textStyle="bold"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:background="@drawable/rounded"
+        android:layout_gravity="center"
+        android:layout_marginStart="10dp"
+        android:layout_marginEnd="10dp"
+        android:layout_height="40dp">
+
+        <EditText
+            android:layout_width="match_parent"
+            android:gravity="start"
+            android:layout_height="40dp"
+            android:text="@string/Birthday"
+            android:textSize="16dp"
+            android:id="@+id/birthday"
+            android:layout_margin="10dp"
+            android:textStyle="bold"/>
+
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/Address"
+        android:textSize="16dp"
+        android:layout_margin="10dp"
+        android:textStyle="bold"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:background="@drawable/rounded"
+        android:layout_gravity="center"
+        android:layout_marginStart="10dp"
+        android:layout_marginEnd="10dp"
+        android:layout_height="40dp">
+
+        <EditText
+            android:layout_width="match_parent"
+            android:gravity="start"
+            android:layout_height="100dp"
+            android:text="@string/Address"
+            android:id="@+id/address"
+            android:textSize="16dp"
+            android:layout_margin="10dp"
+            android:textStyle="bold"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_margin="10dp"
+        android:layout_gravity="center"
+        android:layout_height="wrap_content">
+        
+        
+        <Button
+            android:layout_width="100dp"
+            android:layout_height="50dp"
+            android:text="Cancel"/>
+
+        <Button
+            android:layout_width="100dp"
+            android:layout_marginStart="10dp"
+            android:layout_height="50dp"
+            android:text="Save"/>
+    </LinearLayout>
+
+
+
+
+
+</LinearLayout>

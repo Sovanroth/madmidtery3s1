@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Toolbar xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:elevation="10dp"
+    android:background="@color/snow"
+    android:layout_height="?attr/actionBarSize">
+
+    <androidx.appcompat.widget.LinearLayoutCompat
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:gravity="center"
+        android:layout_height="match_parent">
+        <TextView
+            android:layout_marginStart="15dp"
+            android:id="@+id/screen_title"
+            android:textSize="22sp"
+            android:text="@string/Profile"
+            android:textStyle="bold"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+    </androidx.appcompat.widget.LinearLayoutCompat>
+</Toolbar>
